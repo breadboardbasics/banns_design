@@ -6,7 +6,7 @@ http://www.templatemo.com/tm-501-neaty
 
 */
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Garamond', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	overflow-x: hidden;
@@ -23,12 +23,12 @@ a:focus {
 .tm-left-right-container { width: 100%; }
 
 .tm-blue-bg {
-	background-color: #c8c0f5;
-	color: white;
+	background-color: #f0dddb;
+	color: rgb(177, 177, 177);
 }
 
-.tm-blue-text {	color: #006599; }
-.tm-blue-bg a {	color: white; }
+.tm-blue-text {	color: #727272; }
+.tm-blue-bg a {	color: rgb(143, 143, 143); }
 
 .tm-site-name {
 	font-size: 4rem;
@@ -58,7 +58,7 @@ p { line-height: 2; }
 .tm-button {
 	background-color: #006599;
 	border: none;
-	color: white;
+	color: rgb(255, 255, 255);
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.4rem;	
@@ -71,14 +71,14 @@ p { line-height: 2; }
 .tm-button:active,
 .tm-button:focus {
 	background-color: #2790c6;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 .tm-nav-item:hover a,
 .tm-nav-item:active a,
 .tm-nav-item:focus a,
-.tm-nav-item-link.active {
-	color: #f4ef5e;
+.tm-nav-item-link.active{
+	color: #000000;
 }
 
 .tm-about-img-container { margin-top: 50px; }
@@ -180,6 +180,7 @@ textarea:-ms-input-placeholder {
 		list-style: none;
 		padding: 18px 30px;
 		transition: all 0.3s ease;
+		color:#727272;
 	}
 
 	.tm-site-name {
